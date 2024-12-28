@@ -81,6 +81,7 @@ def main():
         print("erro 666.")
         return
 
+
     biblia = carregar_biblia()
 
     while True:
