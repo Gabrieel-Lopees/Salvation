@@ -2,7 +2,6 @@ import json
 import random
 import os
 
-
 # aqui começa a salvação!! =D
 
 
@@ -27,6 +26,7 @@ def escolher_palavra():
     print(f"Livro: {nome_livro}, Capítulo: {capitulo_idx + 1}, Versículos {versiculo_idx + 1} - {versiculo_idx + 3}")
     for i, texto in enumerate(trecho, start=1):
        print(f"{versiculo_idx + i}: {texto}")
+
 
 
 
