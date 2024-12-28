@@ -72,11 +72,13 @@ def terco():
         print(passo)
 
 
+def livro():
+
 # CLI, essa parte deu trabalho!
 
 def main():
     if not os.path.exists("biblia.json"):
-        pŕint("erro 666.")
+        print("erro 666.")
         return
 
     biblia = carregar_biblia()
@@ -87,7 +89,8 @@ def main():
         print("\nEscolha uma opção:")
         print("1 - Trecho da Biblia")
         print("2 - Roteiro para rezar o terço")
-        print("3 - Sair")
+        print("3 - Ler um livro do inicio") # Ainda não adicionei
+        print("4 - Sair")
         escolha = input("Digite sua escolha: ").strip()
 
         if escolha == "1":
@@ -95,6 +98,9 @@ def main():
         elif escolha == "2":
             terco()
         elif escolha == "3":
+            #Coloque aqui
+            break
+        elif escolha == "4":
             print("Encerrando o programa. Que o Senhor te acompanhe")
             break
         else:
