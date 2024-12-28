@@ -73,7 +73,7 @@ def terco():
 
 
 def livro():
-
+    break
 # CLI, essa parte deu trabalho!
 
 def main():
