@@ -35,10 +35,4 @@ def escolher_palavra():
 
 
 
-
-
-
-
-
-
 #escolher_palavra() // função abandonada do arquivo .py
