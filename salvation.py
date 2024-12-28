@@ -2,6 +2,7 @@ import json
 import random
 import os
 
+
 # aqui começa a salvação!! =D
 
 with open("biblia.json", "r", encoding="utf-8-sig") as file:
